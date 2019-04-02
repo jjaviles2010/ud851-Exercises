@@ -148,7 +148,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/leftRectangle"
-            tools:text="@string/boarding_time_label" />
+            android:text="@string/boarding_time_label" />
 
         <TextView
             android:id="@+id/textViewBoardingTime"
@@ -171,7 +171,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewBoardingTime"
-            tools:text="@string/departure_time_label" />
+            android:text="@string/departure_time_label" />
 
         <TextView
             android:id="@+id/textViewDepartureTime"
@@ -195,7 +195,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewFlightCode"
-            tools:text="@string/boarding_in_label" />
+            android:text="@string/boarding_in_label" />
 
         <TextView
             android:id="@+id/textViewBoardingInTime"
@@ -219,7 +219,7 @@
             app:layout_constraintHorizontal_bias="0.2"
             app:layout_constraintStart_toStartOf="@+id/textViewBoardingInTime"
             app:layout_constraintTop_toBottomOf="@+id/textViewBoardingInTime"
-            tools:text="@string/arrival_time_label" />
+            android:text="@string/arrival_time_label" />
 
         <TextView
             android:id="@+id/textViewArrivalTime"
@@ -268,7 +268,7 @@
             android:textColor="@android:color/black"
             app:layout_constraintBaseline_toBaselineOf="@+id/textViewGateLabel"
             app:layout_constraintStart_toStartOf="@+id/tableHeaderImage"
-            tools:text="@string/terminal_label" />
+            android:text="@string/terminal_label" />
 
         <TextView
             android:id="@+id/textViewGateLabel"
@@ -280,7 +280,7 @@
             android:textColor="@android:color/black"
             app:layout_constraintStart_toEndOf="@+id/textViewTerminalLabel"
             app:layout_constraintTop_toBottomOf="@+id/textViewDepartureTime"
-            tools:text="@string/gate_label" />
+            android:text="@string/gate_label" />
 
         <TextView
             android:id="@+id/textViewSeatLabel"
@@ -291,7 +291,7 @@
             android:textColor="@android:color/black"
             app:layout_constraintBaseline_toBaselineOf="@+id/textViewGateLabel"
             app:layout_constraintStart_toEndOf="@+id/textViewGateLabel"
-            tools:text="@string/seat_label" />
+            android:text="@string/seat_label" />
 
         <TextView
             android:id="@+id/textViewTerminal"
